@@ -1,0 +1,56 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display:  Block;
+} 
+
+
+
+header, footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #FFA500;
+}
+
+footer {
+
+}
+
+
+#left { 
+
+}
+
+#article {
+  width: 100;
+  
+}
+
+
+
+#right {
+
+}
+
+
+aside {
+  background: #47b7b7;
+  border: 1px solid #eee;
+  float: right;
+  padding: 150px;
+  width: 40%;
+  margin: 2% 0%
+
+}
+
+footer {
+width: 100%;
+float: left;
+}
